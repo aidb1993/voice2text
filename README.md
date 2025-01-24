@@ -55,18 +55,6 @@ pnpm start
 - **Translate Recording**: Click translate button or use shortcut
 - **Create Task**: Click task button or use shortcut
 
-### Git Configuration
-
-Switch between different Git configurations using the provided batch script:
-
-```bash
-# For company settings
-.\git-config.bat company
-
-# For personal settings
-.\git-config.bat personal
-```
-
 ## 🏗️ Project Structure
 
 ```
@@ -106,13 +94,6 @@ voice2text/
 ### Environment Variables
 
 - `GEMINI_API_KEY`: Your Google Gemini API key
-
-### Git Configuration
-
-The repository includes a batch script for switching between different Git configurations:
-
-- Company: Sets name to "agustin" and email to "agustindb@argeniss.com"
-- Personal: Sets name to "aidb1993" and email to "aidb1993@gmail.com"
 
 ## 📝 License
 
