@@ -1,0 +1,29 @@
+{
+  "name": "voice2text",
+  "version": "1.0.0",
+  "description": "Voice to text converter using Gemini AI",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug"
+  },
+  "keywords": [
+    "voice",
+    "transcription",
+    "gemini",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "active-win": "^9.0.0",
+    "dotenv": "^16.4.7",
+    "electron": "^34.0.1",
+    "marked": "^15.0.6",
+    "mic-recorder-to-mp3": "^2.2.2"
+  },
+  "devDependencies": {
+    "electron-builder": "^25.1.8"
+  }
+}
